@@ -1,1 +1,8 @@
-https://gist.github.com/mandiwise/44d1edce18f2ffb14f63
+git commit main/gh-pages
+
+$ git add .
+$ git status // to see what changes are going to be commited
+$ git commit -m 'Some descriptive commit message'
+$ git push origin master
+npm run deploy
+sync knapp!!
