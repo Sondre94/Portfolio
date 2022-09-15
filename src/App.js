@@ -1,8 +1,12 @@
+import { MainContent } from "./styles";
+import NavBar from "./components/NavBar";
+import Header from "./components/Header";
+
 export default function App() {
   return (
-    <>
-      <h1>test</h1>
-      <h1>test2</h1>
-    </>
+    <MainContent>
+      <NavBar />
+      <Header />
+    </MainContent>
   );
 }
