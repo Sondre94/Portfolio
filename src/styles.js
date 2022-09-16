@@ -7,8 +7,8 @@ const MainContent = styled.div`
   background: #141414;
   max-width: 1080px;
   height: 100vh;
-  padding-left: 6em;
-  padding-right: 6em;
+  padding-left: 4em;
+  padding-right: 4em;
 `;
 
 // navbar
@@ -34,7 +34,7 @@ const StyledNavLinks = styled.li`
 const StyledHeaderContainer = styled.header`
   height: 400px;
   margin: 0 auto;
-  padding: 30px 30px;
+  padding-top: 30px;
   display: flex;
   justify-content: space-between;
 `;
@@ -47,8 +47,16 @@ const SectionTitle = styled.h2`
   border-bottom: 2px solid rgba(255, 255, 255, 0.6);
 `;
 
+const SectionTitleH3 = styled.h3`
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.5em;
+  padding: 1.3em 0 1.4em 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+  max-width: 540px;
+`;
+
 const HeaderContainerLeft = styled.div`
-  width: 40%;
+  width: 50%;
 `;
 
 // Section paragraph
@@ -76,4 +84,5 @@ export {
   SectionParagraph,
   HeaderContainerLeft,
   StyledButton,
+  SectionTitleH3,
 };
