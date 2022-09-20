@@ -41,6 +41,14 @@ export default function Carousel() {
                 src={require("../../images/placeholder-1.png")}
                 className="project-img"
               />
+              <div className="project-textarea">
+                <h3>Sollicitudin</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Quisque proin ipsum libero, enim scelerisque faucibus quam.
+                  Fames{" "}
+                </p>
+              </div>
             </div>
           </label>
           <label className="card" for="item-2" id="card-2">
@@ -49,6 +57,14 @@ export default function Carousel() {
                 src={require("../../images/placeholder-2.png")}
                 className="project-img"
               />
+              <div className="project-textarea">
+                <h3>Sollicitudin</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Quisque proin ipsum libero, enim scelerisque faucibus quam.
+                  Fames{" "}
+                </p>
+              </div>
             </div>
           </label>
           <label className="card" for="item-3" id="card-3">
@@ -57,6 +73,14 @@ export default function Carousel() {
                 src={require("../../images/placeholder-3.png")}
                 className="project-img"
               />
+              <div className="project-textarea">
+                <h3>Sollicitudin</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Quisque proin ipsum libero, enim scelerisque faucibus quam.
+                  Fames{" "}
+                </p>
+              </div>
             </div>
           </label>
         </div>
