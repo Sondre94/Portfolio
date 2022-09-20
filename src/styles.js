@@ -3,12 +3,12 @@ import styled from "styled-components";
 // Main container for siden
 
 const MainContent = styled.div`
-  margin: 0 auto;
   background: #141414;
   max-width: 1080px;
-  height: 100vh;
+  height: 2000px;
   padding-left: 4em;
   padding-right: 4em;
+  margin: 0 auto;
 `;
 
 // navbar
@@ -56,7 +56,7 @@ const SectionTitleH3 = styled.h3`
 `;
 
 const HeaderContainerLeft = styled.div`
-  width: 50%;
+  width: 80%;
 `;
 
 // Section paragraph
