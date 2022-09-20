@@ -1,4 +1,5 @@
 import "./carousel.css";
+import { StyledProjectCardButton } from "../../styles";
 import { useState } from "react";
 
 export default function Carousel() {
@@ -45,9 +46,12 @@ export default function Carousel() {
                 <h3>Sollicitudin</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque proin ipsum libero, enim scelerisque faucibus quam.
-                  Fames{" "}
+                  Quisque proin ipsum libero{" "}
                 </p>
+                <StyledProjectCardButton>
+                  {" "}
+                  Se prosjektet
+                </StyledProjectCardButton>
               </div>
             </div>
           </label>
@@ -61,9 +65,12 @@ export default function Carousel() {
                 <h3>Sollicitudin</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque proin ipsum libero, enim scelerisque faucibus quam.
-                  Fames{" "}
+                  Quisque proin ipsum libero{" "}
                 </p>
+                <StyledProjectCardButton>
+                  {" "}
+                  Se prosjektet
+                </StyledProjectCardButton>
               </div>
             </div>
           </label>
@@ -77,9 +84,12 @@ export default function Carousel() {
                 <h3>Sollicitudin</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque proin ipsum libero, enim scelerisque faucibus quam.
-                  Fames{" "}
+                  Quisque proin ipsum libero{" "}
                 </p>
+                <StyledProjectCardButton>
+                  {" "}
+                  Se prosjektet
+                </StyledProjectCardButton>
               </div>
             </div>
           </label>

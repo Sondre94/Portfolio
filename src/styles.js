@@ -75,6 +75,16 @@ const StyledButton = styled.button`
   padding: 10px 20px;
 `;
 
+const StyledProjectCardButton = styled.button`
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid cyan;
+  color: rgba(255, 255, 255);
+  float: right;
+  font-size: 14px;
+  padding: 10px 20px;
+`;
+
 export {
   MainContent,
   StyledNavBar,
@@ -85,4 +95,5 @@ export {
   HeaderContainerLeft,
   StyledButton,
   SectionTitleH3,
+  StyledProjectCardButton,
 };
