@@ -36,13 +36,28 @@ export default function Carousel() {
         />
         <div className="cards">
           <label className="card" for="item-1" id="card-1">
-            <div className="card-img"></div>
+            <div className="card-img">
+              <img
+                src={require("../../images/placeholder-1.png")}
+                className="project-img"
+              />
+            </div>
           </label>
           <label className="card" for="item-2" id="card-2">
-            <div className="card-img"></div>
+            <div className="card-img">
+              <img
+                src={require("../../images/placeholder-2.png")}
+                className="project-img"
+              />
+            </div>
           </label>
           <label className="card" for="item-3" id="card-3">
-            <div className="card-img"></div>
+            <div className="card-img">
+              <img
+                src={require("../../images/placeholder-3.png")}
+                className="project-img"
+              />
+            </div>
           </label>
         </div>
       </div>
