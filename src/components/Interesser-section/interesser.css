@@ -1,0 +1,22 @@
+.BtnSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vh;
+  height: 20vh;
+}
+.BtnSection button {
+  margin-left: 25px;
+  border: 3px solid aqua;
+  background: none;
+  border-radius: 100%;
+  padding: 10px;
+  color: aqua;
+  font-size: 25px;
+}
+
+.IconBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

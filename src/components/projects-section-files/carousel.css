@@ -11,6 +11,8 @@ input[type="radio"] {
   position: absolute;
   width: 70vh;
   height: 70vh;
+  min-width: 70vh;
+  min-height: 70vh;
 
   transition: transform 0.4s ease;
   cursor: pointer;
@@ -21,7 +23,8 @@ input[type="radio"] {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 40px;
+  max-height: 450px;
+  padding-top: 100px;
 }
 
 .cards {
@@ -33,8 +36,10 @@ input[type="radio"] {
 
 .card-img {
   display: flex;
-  width: 100%;
+  width: 110%;
   height: 55%;
+  min-width: 450px;
+  min-height: 250px;
   border: 2px solid rgb(144, 144, 144);
 
   background: #292929;
@@ -50,14 +55,14 @@ input[type="radio"] {
 }
 .project-textarea p {
   line-height: 1.5em;
-  font-size: 10px;
-  padding: 15px;
+  font-size: 0.6em;
+  padding: 0.7em 2em 2.5em;
 }
 
 .project-textarea h3 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 16px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 0.9em;
   border-bottom: 1px solid white;
 }
 
