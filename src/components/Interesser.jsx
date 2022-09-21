@@ -1,13 +1,15 @@
-import "./interesser.css";
-import { InteresserSection } from "../../styles";
+import "../styles/interesser.css";
+import { InteresserSection } from "../styles/styles";
 import { FaHiking, FaGamepad } from "react-icons/fa";
+import { useState } from "react";
 
 export default function Interesser() {
+  const [showText, setShowText] = useState(false);
+  const click = () => setShowText(true);
   return (
     <InteresserSection>
-      <p>test</p>
       <div className="BtnSection">
-        <button className="IconBtn">
+        <button className="IconBtn" id="interesseBtn">
           <FaHiking></FaHiking>
         </button>
         <button className="IconBtn">

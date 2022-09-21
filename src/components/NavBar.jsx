@@ -1,4 +1,4 @@
-import { StyledNavBar, StyledNavLinks } from "../styles";
+import { StyledNavBar, StyledNavLinks } from "../styles/styles";
 
 export default function NavBar() {
   return (

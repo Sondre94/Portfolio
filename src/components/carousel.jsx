@@ -1,5 +1,5 @@
-import "./carousel.css";
-import { StyledProjectCardButton } from "../../styles";
+import "../styles/carousel.css";
+import { StyledProjectCardButton } from "../styles/styles";
 import { useState } from "react";
 
 export default function Carousel() {
@@ -39,8 +39,9 @@ export default function Carousel() {
           <label className="card" for="item-1" id="card-1">
             <div className="card-img">
               <img
-                src={require("../../images/placeholder-1.png")}
+                src={require("../images/placeholder-1.png")}
                 className="project-img"
+                alt=""
               />
               <div className="project-textarea">
                 <h3>Sollicitudin</h3>
@@ -58,8 +59,9 @@ export default function Carousel() {
           <label className="card" for="item-2" id="card-2">
             <div className="card-img">
               <img
-                src={require("../../images/placeholder-2.png")}
+                src={require("../images/placeholder-2.png")}
                 className="project-img"
+                alt=""
               />
               <div className="project-textarea">
                 <h3>Sollicitudin</h3>
@@ -77,8 +79,9 @@ export default function Carousel() {
           <label className="card" for="item-3" id="card-3">
             <div className="card-img">
               <img
-                src={require("../../images/placeholder-3.png")}
+                src={require("../images/placeholder-3.png")}
                 className="project-img"
+                alt=""
               />
               <div className="project-textarea">
                 <h3>Sollicitudin</h3>

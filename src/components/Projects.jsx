@@ -1,5 +1,5 @@
-import { SectionTitleH3 } from "../styles";
-import Carousel from "./projects-section-files/carousel";
+import { SectionTitleH3 } from "../styles/styles";
+import Carousel from "./carousel";
 
 export default function Projects() {
   return (

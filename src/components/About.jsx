@@ -1,4 +1,4 @@
-import { SectionTitleH3, AboutSection } from "../styles";
+import { SectionTitleH3, AboutSection } from "../styles/styles";
 import { headerparagraph } from "./textconsts";
 
 export default function About() {

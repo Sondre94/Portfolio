@@ -6,7 +6,7 @@ import {
   SectionParagraph,
   HeaderContainerLeft,
   StyledButton,
-} from "../styles";
+} from "../styles/styles";
 
 export default function Header() {
   return (
