@@ -4,12 +4,14 @@ import { FaHiking, FaGamepad } from "react-icons/fa";
 import { useState } from "react";
 
 export default function Interesser() {
-  const [showText, setShowText] = useState(false);
-  const click = () => setShowText(true);
+  const [isOpened, setIsOpened] = useState(false);
+  function toggle() {
+    setIsOpened((wasOpened) => !wasOpened);
+  }
   return (
     <InteresserSection>
       <div className="BtnSection">
-        <button className="IconBtn" id="interesseBtn">
+        <button className="IconBtn" id="interesseBtn" onClick={toggle}>
           <FaHiking></FaHiking>
         </button>
         <button className="IconBtn">
@@ -25,6 +27,11 @@ export default function Interesser() {
           <FaHiking></FaHiking>
         </button>
       </div>
+      {isOpened && (
+        <div className="textBox">
+          <p>test</p>
+        </div>
+      )}
     </InteresserSection>
   );
 }
