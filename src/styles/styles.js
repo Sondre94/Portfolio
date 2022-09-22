@@ -25,7 +25,7 @@ const StyledNavLinks = styled.li`
   padding: 10px;
 
   &:hover {
-    border-bottom: 2px solid rgba(67, 239, 210, 0.6);
+    box-shadow: inset 0 -2px 0 aqua;
     transition: 0.3s ease-in-out;
   }
 `;

@@ -19,4 +19,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.3s;
+}
+
+.IconBtn:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s;
+}
+
+.textBox {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-top: 30px;
+  text-align: center;
+  max-width: 600px;
+  transition: transform 0.3s;
+}
+
+.textContainer {
+  height: 80px;
+}
+
+.interesseTitle {
+  color: whitesmoke;
+  font-weight: 200;
 }
