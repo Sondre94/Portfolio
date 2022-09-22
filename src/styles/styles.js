@@ -3,7 +3,7 @@ import styled from "styled-components";
 // Main container for siden
 
 const MainContent = styled.div`
-  background: #141414;
+  background: #131516;
   max-width: 1080px;
   padding-left: 4em;
   padding-right: 4em;
