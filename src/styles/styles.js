@@ -100,9 +100,9 @@ const StyledProjectCardButton = styled.button`
   border: none;
   border-bottom: 2px solid cyan;
   color: rgba(255, 255, 255);
-  float: right;
   font-size: 14px;
   padding: 10px 20px;
+  margin-top: 1.5rem;
 `;
 
 const StyledFooter = styled.footer`
