@@ -80,19 +80,24 @@ const InteresserSection = styled.div`
 const AboutSection = styled.div`
   display: flex;
   padding-top: 100px;
-  padding-right: 50px;
+  padding-right: 20px;
   padding-bottom: 100px;
 `;
 
 //button
 const StyledButton = styled.button`
+  font-size: 20px;
+  padding-bottom: 2px;
+  transition: 0.3s ease-in;
   background: transparent;
   border: none;
-  border-bottom: 2px solid cyan;
-  color: rgba(255, 255, 255);
+  color: whitesmoke;
   float: right;
-  font-size: 20px;
-  padding: 10px 20px;
+
+  &:hover {
+    box-shadow: inset 0 -2px 0 aqua;
+    transition: 0.3s ease-in-out;
+  }
 `;
 
 const StyledProjectCardButton = styled.button`

@@ -10,7 +10,8 @@ body {
 
 .icon {
   vertical-align: middle;
-  padding: 0 15px;
+  padding: 10px 0px;
+  margin-left: 15px;
 }
 
 .about-img {

@@ -19,18 +19,18 @@ input[type="radio"] {
   display: flex;
   justify-content: center;
   padding-top: 80px;
+  padding-bottom: 400px;
 }
 
 .cards {
-  width: 50vh;
-  height: 40vh;
+  width: 80vh;
   margin-bottom: 20px;
 }
 
 .card-img {
   display: flex;
-  width: 600px;
-  height: 335px;
+  width: 540px;
+  height: 340px;
   border: 2px solid rgb(144, 144, 144);
 
   background: #292929;
@@ -45,9 +45,9 @@ input[type="radio"] {
   align-items: center;
 }
 .project-textarea p {
-  line-height: 1.8em;
-  font-size: 0.6em;
-  padding: 1.7em 4em 2.5em;
+  line-height: 1.2em;
+  font-size: 14px;
+  width: 150px;
 }
 
 .project-textarea h3 {
@@ -74,7 +74,7 @@ input[type="radio"] {
 #item-1:checked ~ .cards #card-2,
 #item-2:checked ~ .cards #card-3,
 #item-3:checked ~ .cards #card-1 {
-  transform: translatex(35%) scale(0.8);
+  transform: translatex(40%) scale(0.8);
   opacity: 0.3;
   z-index: 0;
 }
