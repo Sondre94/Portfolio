@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const MainContent = styled.div`
   background: #131516;
-  max-width: 1080px;
+  max-width: 1200px;
   padding-left: 4em;
   padding-right: 4em;
   margin: 0 auto;
@@ -40,23 +40,26 @@ const StyledHeaderContainer = styled.header`
 
 // Section Titles
 const SectionTitle = styled.h2`
+  font-weight: 200;
   color: rgba(255, 255, 255, 0.9);
   font-size: 2em;
-  padding: 1.3em 2em 1.4em 0;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+  padding: 0em 2em 1.4em 0;
 `;
 
 const SectionTitleH3 = styled.h3`
   color: rgba(255, 255, 255, 0.9);
   font-size: 1.5em;
   padding: 1.3em 0 2em 0;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.6);
   max-width: 540px;
+  font-weight: 200;
 `;
 
 const HeaderContainerLeft = styled.div`
   width: 80%;
+  max-width: 540px;
+  min-width: 540px;
   padding-right: 20%;
+  font-weight: 200;
 `;
 
 // Section paragraph
@@ -79,7 +82,7 @@ const InteresserSection = styled.div`
 
 const AboutSection = styled.div`
   display: flex;
-  padding-top: 100px;
+  padding-top: 40px;
   padding-right: 20px;
   padding-bottom: 100px;
 `;

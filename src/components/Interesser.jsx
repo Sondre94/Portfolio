@@ -2,13 +2,7 @@ import "../styles/interesser.css";
 import { InteresserSection } from "../styles/styles";
 import { FaHiking, FaGamepad } from "react-icons/fa";
 import { useState } from "react";
-import {
-  interesse1,
-  interesse2,
-  interesse3,
-  interesse4,
-  interesse5,
-} from "./textconsts";
+import { TEXT } from "./textconsts";
 
 export default function Interesser() {
   const [showtext1, toggleShowText1] = useState(false);
@@ -98,11 +92,11 @@ export default function Interesser() {
         </button>
       </div>
       <div className="textContainer">
-        {showtext1 && <div className="textBox">{interesse1}</div>}
-        {showtext2 && <div className="textBox">{interesse2}</div>}
-        {showtext3 && <div className="textBox">{interesse3}</div>}
-        {showtext4 && <div className="textBox">{interesse4}</div>}
-        {showtext5 && <div className="textBox">{interesse5}</div>}
+        {showtext1 && <div className="textBox">{TEXT.INTERESSE_1}</div>}
+        {showtext2 && <div className="textBox">{TEXT.INTERESSE_2}</div>}
+        {showtext3 && <div className="textBox">{TEXT.INTERESSE_3}</div>}
+        {showtext4 && <div className="textBox">{TEXT.INTERESSE_4}</div>}
+        {showtext5 && <div className="textBox">{TEXT.INTERESSE_5}</div>}
       </div>
     </InteresserSection>
   );

@@ -5,6 +5,7 @@ export default function Projects() {
   return (
     <>
       <SectionTitleH3>Projects</SectionTitleH3>
+      <hr></hr>
       <Carousel />
     </>
   );

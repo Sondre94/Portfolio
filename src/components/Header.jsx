@@ -1,5 +1,5 @@
 import { AiOutlineArrowDown } from "react-icons/ai";
-import { headerparagraph } from "./textconsts";
+import { TEXT } from "./textconsts";
 import {
   StyledHeaderContainer,
   SectionTitle,
@@ -12,8 +12,10 @@ export default function Header() {
   return (
     <StyledHeaderContainer>
       <HeaderContainerLeft>
-        <SectionTitle>agasgsdfgsfg</SectionTitle>
-        <SectionParagraph>{headerparagraph}</SectionParagraph>
+        <h1 className="headline">Sondre Førde</h1>
+        <SectionTitle>Front-end Utvikler</SectionTitle>
+        <hr></hr>
+        <SectionParagraph>{TEXT.HEADER_PARAGRAPH}</SectionParagraph>
         <StyledButton>
           Les mer
           <AiOutlineArrowDown className="icon" />
