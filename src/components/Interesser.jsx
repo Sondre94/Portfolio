@@ -17,76 +17,36 @@ export default function Interesser() {
       <div className="BtnSection">
         <button
           className="IconBtn"
-          onClick={() => {
-            toggleShowText1(true);
-            toggleShowText2(false);
-            toggleShowText3(false);
-            toggleShowText4(false);
-            toggleShowText5(false);
-            if (showtext1 === true) {
-              toggleShowText1(false);
-            }
-          }}
+          onMouseEnter={() => toggleShowText1(true)}
+          onMouseLeave={() => toggleShowText1(false)}
         >
           <FaHiking></FaHiking>
         </button>
         <button
           className="IconBtn"
-          onClick={() => {
-            toggleShowText1(false);
-            toggleShowText2(true);
-            toggleShowText3(false);
-            toggleShowText4(false);
-            toggleShowText5(false);
-            if (showtext2 === true) {
-              toggleShowText2(false);
-            }
-          }}
+          onMouseEnter={() => toggleShowText2(true)}
+          onMouseLeave={() => toggleShowText2(false)}
         >
           <FaGamepad></FaGamepad>
         </button>{" "}
         <button
           className="IconBtn"
-          onClick={() => {
-            toggleShowText1(false);
-            toggleShowText2(false);
-            toggleShowText3(true);
-            toggleShowText4(false);
-            toggleShowText5(false);
-            if (showtext3 === true) {
-              toggleShowText3(false);
-            }
-          }}
+          onMouseEnter={() => toggleShowText3(true)}
+          onMouseLeave={() => toggleShowText3(false)}
         >
           <FaHiking></FaHiking>
         </button>
         <button
           className="IconBtn"
-          onClick={() => {
-            toggleShowText1(false);
-            toggleShowText2(false);
-            toggleShowText3(false);
-            toggleShowText4(true);
-            toggleShowText5(false);
-            if (showtext4 === true) {
-              toggleShowText4(false);
-            }
-          }}
+          onMouseEnter={() => toggleShowText4(true)}
+          onMouseLeave={() => toggleShowText4(false)}
         >
           <FaGamepad></FaGamepad>
         </button>
         <button
           className="IconBtn"
-          onClick={() => {
-            toggleShowText1(false);
-            toggleShowText2(false);
-            toggleShowText3(false);
-            toggleShowText4(false);
-            toggleShowText5(true);
-            if (showtext5 === true) {
-              toggleShowText5(false);
-            }
-          }}
+          onMouseEnter={() => toggleShowText5(true)}
+          onMouseLeave={() => toggleShowText5(false)}
         >
           <FaHiking></FaHiking>
         </button>
