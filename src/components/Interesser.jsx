@@ -1,5 +1,3 @@
-import "../styles/interesser.css";
-
 import {
   BtnSection,
   HoverTextRender,
