@@ -159,7 +159,7 @@ const BtnSection = styled.div`
   justify-content: center;
   align-items: center;
   width: 70vh;
-  height: 20vh;
+  height: 10vh;
 
   & button {
     margin-left: 25px;
@@ -197,6 +197,7 @@ const BodyStyling = styled.body`
 // typography
 
 const InteresseTitle = styled.h3`
+  padding-top: 50px;
   color: whitesmoke;
   font-weight: 200;
 `;
