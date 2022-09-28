@@ -16,6 +16,7 @@ export const TEXT = {
     ABOUT_PARAGRAPH:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula metus quam, in laoreet ipsum sollicitudin id.",
   },
+  INTERESSE_TITLE: "Interesser",
   INTERESSE_BUTTONS: {
     HIKING:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, animi similique? Sunt vero neque iure dolore",

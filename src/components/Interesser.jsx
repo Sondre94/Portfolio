@@ -1,5 +1,14 @@
 import "../styles/interesser.css";
-import { InteresserSection } from "../styles/styles";
+
+import {
+  BtnSection,
+  HoverTextRender,
+  IconBtn,
+  InteresserSection,
+  InteresseTitle,
+  TextContainer,
+} from "../styles/styles";
+
 import { FaHiking, FaGamepad, FaDog } from "react-icons/fa";
 import { MdOutlineSportsMotorsports } from "react-icons/md";
 import { GoRocket } from "react-icons/go";
@@ -15,61 +24,56 @@ export default function Interesser() {
 
   return (
     <InteresserSection>
-      <h3 className="interesseTitle">Interesser</h3>
-      <div className="BtnSection">
-        <button
-          className="IconBtn"
+      <InteresseTitle>{TEXT.INTERESSE_TITLE}</InteresseTitle>
+      <BtnSection>
+        <IconBtn
           onMouseEnter={() => toggleShowText1(true)}
           onMouseLeave={() => toggleShowText1(false)}
         >
           <FaHiking />
-        </button>
-        <button
-          className="IconBtn"
+        </IconBtn>
+        <IconBtn
           onMouseEnter={() => toggleShowText2(true)}
           onMouseLeave={() => toggleShowText2(false)}
         >
           <FaGamepad />
-        </button>{" "}
-        <button
-          className="IconBtn"
+        </IconBtn>
+        <IconBtn
           onMouseEnter={() => toggleShowText3(true)}
           onMouseLeave={() => toggleShowText3(false)}
         >
           <MdOutlineSportsMotorsports />
-        </button>
-        <button
-          className="IconBtn"
+        </IconBtn>
+        <IconBtn
           onMouseEnter={() => toggleShowText4(true)}
           onMouseLeave={() => toggleShowText4(false)}
         >
           <FaDog />
-        </button>
-        <button
-          className="IconBtn"
+        </IconBtn>
+        <IconBtn
           onMouseEnter={() => toggleShowText5(true)}
           onMouseLeave={() => toggleShowText5(false)}
         >
           <GoRocket />
-        </button>
-      </div>
-      <div className="textContainer">
+        </IconBtn>
+      </BtnSection>
+      <TextContainer>
         {showtext1 && (
-          <div className="textBox">{TEXT.INTERESSE_BUTTONS.HIKING}</div>
+          <HoverTextRender>{TEXT.INTERESSE_BUTTONS.HIKING}</HoverTextRender>
         )}
         {showtext2 && (
-          <div className="textBox">{TEXT.INTERESSE_BUTTONS.GAMING}</div>
+          <HoverTextRender>{TEXT.INTERESSE_BUTTONS.GAMING}</HoverTextRender>
         )}
         {showtext3 && (
-          <div className="textBox">{TEXT.INTERESSE_BUTTONS.FORMULA_1}</div>
+          <HoverTextRender>{TEXT.INTERESSE_BUTTONS.FORMULA_1}</HoverTextRender>
         )}
         {showtext4 && (
-          <div className="textBox">{TEXT.INTERESSE_BUTTONS.DOGS}</div>
+          <HoverTextRender>{TEXT.INTERESSE_BUTTONS.DOGS}</HoverTextRender>
         )}
         {showtext5 && (
-          <div className="textBox">{TEXT.INTERESSE_BUTTONS.SPACE}</div>
+          <HoverTextRender>{TEXT.INTERESSE_BUTTONS.SPACE}</HoverTextRender>
         )}
-      </div>
+      </TextContainer>
     </InteresserSection>
   );
 }
