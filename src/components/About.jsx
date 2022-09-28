@@ -1,17 +1,29 @@
-import { SectionTitleH3, AboutSection } from "../styles/styles";
+import {
+  SectionTitleH3,
+  AboutSection,
+  AboutImage,
+  UnderText,
+  SectionGreenLine,
+  AboutTextContainer,
+  AboutThickText,
+} from "../styles/styles";
 import { TEXT } from "./textconsts";
+import AboutImg from "../images/about.png";
 
 export default function About() {
   return (
     <>
-      <SectionTitleH3>Om meg</SectionTitleH3>
-      <hr></hr>
+      <SectionTitleH3>{TEXT.ABOUT_SECTION.ABOUT_TITLE}</SectionTitleH3>
+      <SectionGreenLine />
       <AboutSection>
-        <div className="about-p">
-          {TEXT.HEADER_PARAGRAPH}
-          <p id="undertext">{TEXT.HEADER_PARAGRAPH}</p>
-        </div>
-        <img src={require("../images/about.png")} className="about-img" />
+        <AboutTextContainer>
+          <AboutThickText>{TEXT.ABOUT_SECTION.ABOUT_PARAGRAPH}</AboutThickText>
+          <UnderText>
+            {TEXT.ABOUT_SECTION.ABOUT_PARAGRAPH}
+            {TEXT.ABOUT_SECTION.ABOUT_PARAGRAPH}
+          </UnderText>
+        </AboutTextContainer>
+        <AboutImage src={AboutImg} />
       </AboutSection>
     </>
   );

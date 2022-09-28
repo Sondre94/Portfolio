@@ -1,4 +1,4 @@
-import { MainContent } from "./styles/styles";
+import { MainContent, BodyStyling } from "./styles/styles";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
@@ -8,7 +8,7 @@ import Interesser from "./components/Interesser";
 
 export default function App() {
   return (
-    <>
+    <BodyStyling>
       <MainContent>
         <NavBar />
         <Header />
@@ -17,6 +17,6 @@ export default function App() {
         <About />
       </MainContent>
       <Footer />
-    </>
+    </BodyStyling>
   );
 }

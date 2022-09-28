@@ -1,6 +1,7 @@
 import "../styles/carousel.css";
 import { StyledProjectCardButton } from "../styles/styles";
 import { useState } from "react";
+import { TEXT } from "./textconsts";
 
 export default function Carousel() {
   const [selected, setSelected] = useState("1");
@@ -44,14 +45,10 @@ export default function Carousel() {
                 alt=""
               />
               <div className="project-textarea">
-                <h3>Sollicitudin</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque proin ipsum libero{" "}
-                </p>
+                <h3>{TEXT.PROJECTS_SECTION.PROJECT_HEADLINE}</h3>
+                <p>{TEXT.PROJECTS_SECTION.PROJECT_TEXT}</p>
                 <StyledProjectCardButton>
-                  {" "}
-                  Se prosjektet
+                  {TEXT.BUTTON_TEXT.SE_PROSJEKT}
                 </StyledProjectCardButton>
               </div>
             </div>
@@ -64,14 +61,10 @@ export default function Carousel() {
                 alt=""
               />
               <div className="project-textarea">
-                <h3>Sollicitudin</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque proin ipsum libero{" "}
-                </p>
+                <h3>{TEXT.PROJECTS_SECTION.PROJECT_HEADLINE}</h3>
+                <p>{TEXT.PROJECTS_SECTION.PROJECT_TEXT}</p>
                 <StyledProjectCardButton>
-                  {" "}
-                  Se prosjektet
+                  {TEXT.BUTTON_TEXT.SE_PROSJEKT}
                 </StyledProjectCardButton>
               </div>
             </div>
@@ -84,14 +77,10 @@ export default function Carousel() {
                 alt=""
               />
               <div className="project-textarea">
-                <h3>Sollicitudin</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque proin ipsum libero{" "}
-                </p>
+                <h3>{TEXT.PROJECTS_SECTION.PROJECT_HEADLINE}</h3>
+                <p>{TEXT.PROJECTS_SECTION.PROJECT_TEXT}</p>
                 <StyledProjectCardButton>
-                  {" "}
-                  Se prosjektet
+                  {TEXT.BUTTON_TEXT.SE_PROSJEKT}
                 </StyledProjectCardButton>
               </div>
             </div>

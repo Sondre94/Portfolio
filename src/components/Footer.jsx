@@ -1,27 +1,36 @@
-import { StyledFooter } from "../styles/styles";
+import {
+  StyledFooter,
+  FooterTextContainer,
+  ContactList,
+  FooterTitle,
+} from "../styles/styles";
+
+import { TEXT } from "./textconsts";
 
 export default function Footer() {
   return (
     <StyledFooter>
-      <div className="text-container">
+      <FooterTextContainer>
         <div className="contact-info">
-          <h3>Kontaktinfo</h3>
-          <ul className="kontaktinfo-list">
+          <FooterTitle>{TEXT.FOOTER_SECTION.FOOTER_TITLE}</FooterTitle>
+          <ContactList>
             <li>
-              <strong>Email:</strong> blabla@gmail.com
+              <strong>{TEXT.FOOTER_SECTION.CONTACT_CATEGORY.EMAIL}</strong>
+              {TEXT.FOOTER_SECTION.CONTACT_INFO.EMAIL}
             </li>
             <li>
-              <strong>Email:</strong> blabla@gmail.com
+              <strong>{TEXT.FOOTER_SECTION.CONTACT_CATEGORY.PHONE}</strong>
+              {TEXT.FOOTER_SECTION.CONTACT_INFO.PHONE}
             </li>
             <li>
-              <strong>Email:</strong> blabla@gmail.com
+              <strong>
+                {TEXT.FOOTER_SECTION.CONTACT_CATEGORY.GITHUB_LINK}
+              </strong>
+              {TEXT.FOOTER_SECTION.CONTACT_INFO.GITHUB_LINK}
             </li>
-            <li>
-              <strong>Email:</strong> blabla@gmail.com
-            </li>
-          </ul>
+          </ContactList>
         </div>
-      </div>
+      </FooterTextContainer>
     </StyledFooter>
   );
 }

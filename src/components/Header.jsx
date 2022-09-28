@@ -1,4 +1,3 @@
-import { AiOutlineArrowDown } from "react-icons/ai";
 import { TEXT } from "./textconsts";
 import {
   StyledHeaderContainer,
@@ -6,22 +5,28 @@ import {
   SectionParagraph,
   HeaderContainerLeft,
   StyledButton,
+  ArrowDownIcon,
+  NameHeadline,
+  ProfilImg,
 } from "../styles/styles";
+
+import ProfilBilde from "../images/profilbilde.png";
 
 export default function Header() {
   return (
     <StyledHeaderContainer>
       <HeaderContainerLeft>
-        <h1 className="headline">Sondre Førde</h1>
-        <SectionTitle>Front-end Utvikler</SectionTitle>
-        <hr></hr>
-        <SectionParagraph>{TEXT.HEADER_PARAGRAPH}</SectionParagraph>
+        <NameHeadline>{TEXT.HEADER_SECTION.NAME}</NameHeadline>
+        <SectionTitle>{TEXT.HEADER_SECTION.JOB}</SectionTitle>
+        <SectionParagraph>
+          {TEXT.HEADER_SECTION.HEADER_PARAGRAPH}
+        </SectionParagraph>
         <StyledButton>
-          Les mer
-          <AiOutlineArrowDown className="icon" />
+          {TEXT.BUTTON_TEXT.READ_MORE}
+          <ArrowDownIcon />
         </StyledButton>
       </HeaderContainerLeft>
-      <img src={require("../images/profilbilde.png")} alt="profilbilde" />
+      <ProfilImg src={ProfilBilde} alt="profilbilde" />
     </StyledHeaderContainer>
   );
 }
