@@ -299,8 +299,7 @@ const AboutSection = styled.div`
 const StyledFooter = styled.footer`
   background: #0d0d0d;
   width: 100%;
-  height: 300px;
-  margin: 0 auto;
+  height: 100%;
   padding-bottom: 0;
   box-shadow: -1px -5px 25px 0px rgba(0, 0, 0, 0.3);
   border-width: 1px 0 0px 0px;
@@ -327,6 +326,8 @@ const FooterTextContainer = styled.div`
   padding-left: 40px;
   padding-top: 50px;
   padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
 `;
 
 const FooterTitle = styled.h3`
@@ -360,6 +361,14 @@ const ContactList = styled.ul`
   }
 `;
 
+const SocialLinks = styled.div`
+  color: aqua;
+  font-size: 40px;
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: center;
+`;
+
 export {
   MainContent,
   StyledNavBar,
@@ -391,4 +400,5 @@ export {
   TextContainer,
   InteresseTitle,
   HoverTextRender,
+  SocialLinks,
 };
