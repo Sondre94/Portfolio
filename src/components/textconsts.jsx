@@ -1,4 +1,9 @@
 export const TEXT = {
+  NAVBAR: {
+    OM_MEG: "Om Meg",
+    PROSJEKT: "Prosjekt",
+    KONTAKT_MEG: "Kontakt Meg",
+  },
   HEADER_SECTION: {
     HEADER_PARAGRAPH:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula metus quam, in laoreet ipsum sollicitudin id.",
@@ -7,6 +12,7 @@ export const TEXT = {
   },
 
   PROJECTS_SECTION: {
+    PROJECT_TITLE: "Prosjekt",
     PROJECT_HEADLINE: "Sollicitudin",
     PROJECT_TEXT:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque proin ipsum libero",
