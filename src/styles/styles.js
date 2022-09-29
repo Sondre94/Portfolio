@@ -6,7 +6,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 
 const SectionGreenLine = styled.hr`
   margin: 30px 0;
-  height: 1px;
+  height: 2px;
   border: none;
   background: -webkit-gradient(
     linear,
@@ -23,6 +23,12 @@ const MainContent = styled.div`
   padding-left: 4em;
   padding-right: 4em;
   margin: 0 auto;
+
+  @media (max-width: 800px) {
+    max-width: 800px;
+    padding: 0;
+    margin: 0 auto !important;
+  }
 `;
 
 //button
@@ -72,6 +78,11 @@ const StyledProjectCardButton = styled.button`
     transition: 0.3s ease-in-out;
     transform: scale(1.1);
   }
+
+  @media (max-width: 800px) {
+    font-size: 12px;
+    padding-top: 25px;
+  }
 `;
 
 // navbar
@@ -108,6 +119,11 @@ const StyledHeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
   padding-bottom: 4em;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    padding-top: 20px;
+  }
 `;
 
 const HeaderContainerLeft = styled.div`
@@ -116,13 +132,27 @@ const HeaderContainerLeft = styled.div`
   min-width: 540px;
   padding-right: 20%;
   font-weight: 200;
+  @media (max-width: 800px) {
+    width: 100%;
+    padding-top: 10%;
+    padding-right: 0%;
+  }
 `;
 
-const ProfilImg = styled.img``;
+const ProfilImg = styled.img`
+  @media (max-width: 800px) {
+    order: -1;
+    width: 50%;
+  }
+`;
 
 const NameHeadline = styled.h1`
   font-weight: 300;
   font-size: 40px;
+
+  @media (max-width: 800px) {
+    margin-bottom: 20px;
+  }
 `;
 const ArrowDownIcon = styled(AiOutlineArrowDown)`
   vertical-align: middle;
@@ -170,6 +200,15 @@ const BtnSection = styled.div`
     color: aqua;
     font-size: 25px;
   }
+  @media (max-width: 800px) {
+    margin-top: 50px;
+
+    width: 30%;
+    & button {
+      font-size: 15px;
+      padding: 15px;
+    }
+  }
 `;
 
 // About section styling
@@ -181,11 +220,21 @@ const AboutTextContainer = styled.p`
   margin: 0 auto;
   padding-right: 50px;
   max-width: 60%;
+
+  @media (max-width: 800px) {
+    padding-bottom: 50px;
+  }
 `;
 
 const AboutImage = styled.img`
   height: 250px;
   padding-left: 50px;
+
+  @media (max-width: 800px) {
+    height: 60vh;
+    max-height: 250px;
+    margin: 0 auto;
+  }
 `;
 
 const BodyStyling = styled.body`
@@ -200,13 +249,16 @@ const InteresseTitle = styled.h3`
   padding-top: 50px;
   color: whitesmoke;
   font-weight: 200;
+  @media (max-width: 800px) {
+    padding-top: 150px;
+  }
 `;
 const SectionTitle = styled.h2`
   font-weight: 200;
   color: rgba(255, 255, 255, 0.9);
   font-size: 2em;
   padding: 0em 2em 1.4em 0;
-  border-width: 0 0 1px 0px;
+  border-width: 0 0 2px 0px;
   border-style: solid;
   border-image: linear-gradient(to left, transparent, aqua, transparent) 1;
 `;
@@ -217,10 +269,17 @@ const SectionTitleH3 = styled.h3`
   padding: 1em 0 1em 0;
   font-weight: 200;
   text-align: center;
+  @media (max-width: 800px) {
+    margin-top: 400px;
+  }
 `;
 
 const SectionParagraph = styled.p`
-  margin-top: 3em;
+  margin-top: 2em;
+
+  @media (max-width: 800px) {
+    order: 2;
+  }
 `;
 
 //About section
@@ -230,6 +289,11 @@ const AboutSection = styled.div`
   padding-top: 40px;
   padding-right: 20px;
   padding-bottom: 100px;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    padding-right: 0;
+  }
 `;
 
 const StyledFooter = styled.footer`
@@ -247,6 +311,12 @@ const StyledFooter = styled.footer`
 const AboutThickText = styled.p`
   font-size: 18px;
   margin-bottom: 5px;
+
+  @media (max-width: 800px) {
+    margin-bottom: 10%;
+    font-size: 15px;
+    width: 130%;
+  }
 `;
 
 // Footer section styling
@@ -267,6 +337,11 @@ const FooterTitle = styled.h3`
 
 const UnderText = styled.p`
   color: grey;
+
+  @media (max-width: 800px) {
+    font-size: 12px;
+    width: 130%;
+  }
 `;
 
 const ContactList = styled.ul`

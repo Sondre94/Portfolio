@@ -45,8 +45,12 @@ export default function Carousel() {
                 alt=""
               />
               <div className="project-textarea">
-                <h3>{TEXT.PROJECTS_SECTION.PROJECT_HEADLINE}</h3>
-                <p>{TEXT.PROJECTS_SECTION.PROJECT_TEXT}</p>
+                <h3 className="project-title">
+                  {TEXT.PROJECTS_SECTION.PROJECT_HEADLINE}
+                </h3>
+                <p className="project-text">
+                  {TEXT.PROJECTS_SECTION.PROJECT_TEXT}
+                </p>
                 <StyledProjectCardButton>
                   {TEXT.BUTTON_TEXT.SE_PROSJEKT}
                 </StyledProjectCardButton>
@@ -61,8 +65,12 @@ export default function Carousel() {
                 alt=""
               />
               <div className="project-textarea">
-                <h3>{TEXT.PROJECTS_SECTION.PROJECT_HEADLINE}</h3>
-                <p>{TEXT.PROJECTS_SECTION.PROJECT_TEXT}</p>
+                <h3 className="project-title">
+                  {TEXT.PROJECTS_SECTION.PROJECT_HEADLINE}
+                </h3>
+                <p className="project-text">
+                  {TEXT.PROJECTS_SECTION.PROJECT_TEXT}
+                </p>
                 <StyledProjectCardButton>
                   {TEXT.BUTTON_TEXT.SE_PROSJEKT}
                 </StyledProjectCardButton>
@@ -77,8 +85,12 @@ export default function Carousel() {
                 alt=""
               />
               <div className="project-textarea">
-                <h3>{TEXT.PROJECTS_SECTION.PROJECT_HEADLINE}</h3>
-                <p>{TEXT.PROJECTS_SECTION.PROJECT_TEXT}</p>
+                <h3 className="project-title">
+                  {TEXT.PROJECTS_SECTION.PROJECT_HEADLINE}
+                </h3>
+                <p className="project-text">
+                  {TEXT.PROJECTS_SECTION.PROJECT_TEXT}
+                </p>
                 <StyledProjectCardButton>
                   {TEXT.BUTTON_TEXT.SE_PROSJEKT}
                 </StyledProjectCardButton>

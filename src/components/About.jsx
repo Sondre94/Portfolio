@@ -13,7 +13,9 @@ import AboutImg from "../images/about.png";
 export default function About() {
   return (
     <>
-      <SectionTitleH3>{TEXT.ABOUT_SECTION.ABOUT_TITLE}</SectionTitleH3>
+      <SectionTitleH3 className="no-padding">
+        {TEXT.ABOUT_SECTION.ABOUT_TITLE}
+      </SectionTitleH3>
       <SectionGreenLine />
       <AboutSection>
         <AboutTextContainer>
