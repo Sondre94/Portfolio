@@ -6,7 +6,7 @@ export const TEXT = {
   },
   HEADER_SECTION: {
     HEADER_PARAGRAPH:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula metus quam, in laoreet ipsum sollicitudin id.",
+      "Jeg heter Sondre og er for øyeblikket deltaker på Kodehode amo kurs. Jeg har så lenge jeg kan huske vært interessert i alt som har med data; alt fra bygge data til gaming.",
     NAME: "Sondre Førde",
     JOB: "Front-End Utvikler",
   },

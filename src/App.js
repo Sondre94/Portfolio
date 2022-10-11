@@ -10,7 +10,6 @@ export default function App() {
   return (
     <BodyStyling>
       <MainContent>
-        <NavBar />
         <Header />
         <Projects />
         <Interesser />

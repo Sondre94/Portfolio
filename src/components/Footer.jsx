@@ -3,20 +3,13 @@ import {
   FooterTextContainer,
   ContactList,
   FooterTitle,
-  SocialLinks,
 } from "../styles/styles";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 import { TEXT } from "./textconsts";
 
 export default function Footer() {
-  const style = { margin: "15px" };
   return (
     <>
-      <SocialLinks>
-        <BsGithub style={style} />
-        <BsLinkedin style={style} />
-      </SocialLinks>
       <StyledFooter>
         <FooterTextContainer>
           <div className="contact-info">

@@ -10,7 +10,7 @@ import {
   ProfilImg,
 } from "../styles/styles";
 
-import ProfilBilde from "../images/profilbilde.png";
+import ProfilBilde from "../images/profilbilde2.0.png";
 
 export default function Header() {
   return (
@@ -22,8 +22,10 @@ export default function Header() {
           {TEXT.HEADER_SECTION.HEADER_PARAGRAPH}
         </SectionParagraph>
         <StyledButton>
-          {TEXT.BUTTON_TEXT.READ_MORE}
-          <ArrowDownIcon />
+          <a href="#about--section">
+            {TEXT.BUTTON_TEXT.READ_MORE}
+            <ArrowDownIcon />
+          </a>
         </StyledButton>
       </HeaderContainerLeft>
       <ProfilImg src={ProfilBilde} alt="profilbilde" />

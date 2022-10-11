@@ -54,6 +54,11 @@ const StyledButton = styled.button`
   color: whitesmoke;
   float: right;
 
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
   &:hover {
     transition: 0.3s ease-in-out;
     border-width: 0 0 1px 0px;
@@ -94,7 +99,7 @@ const StyledNavBar = styled.ul`
   margin: 0;
 `;
 
-const StyledNavLinks = styled.li`
+const StyledNavLinks = styled.a`
   box-sizing: border-box;
   margin: 10px 20px;
   font-size: 16px;
