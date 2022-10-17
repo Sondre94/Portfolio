@@ -23,10 +23,7 @@ export default function About() {
       <AboutSection>
         <AboutTextContainer>
           <AboutThickText>{TEXT.ABOUT_SECTION.ABOUT_PARAGRAPH}</AboutThickText>
-          <UnderText>
-            {TEXT.ABOUT_SECTION.ABOUT_PARAGRAPH}
-            {TEXT.ABOUT_SECTION.ABOUT_PARAGRAPH}
-          </UnderText>
+          <UnderText>{TEXT.ABOUT_SECTION.ABOUT_PARAGRAPH_FADE}</UnderText>
         </AboutTextContainer>
         <AboutImage src={AboutImg} />
       </AboutSection>

@@ -12,27 +12,36 @@ export const TEXT = {
   },
 
   PROJECTS_SECTION: {
-    PROJECT_TITLE: "Prosjekt",
-    PROJECT_HEADLINE: "Sollicitudin",
-    PROJECT_TEXT:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque proin ipsum libero",
+    TRAVELPAGE: {
+      PROJECT_TITLE: "Prosjekt",
+      PROJECT_HEADLINE: "Explore Bali",
+      PROJECT_TEXT: "Nettside med vær-API og bildegalleri",
+    },
+    TODO_LIST: {
+      PROJECT_HEADLINE: "Todo-list",
+      PROJECT_TEXT: "liten Todo-list app i vanilla JS",
+    },
+    CATFACTS: {
+      PROJECT_HEADLINE: "CatFacts",
+      PROJECT_TEXT:
+        "Innlevering vi hadde om API calls. Henter ut 10 fakta om katter fra API",
+    },
   },
   ABOUT_SECTION: {
     ABOUT_TITLE: "Om Meg",
     ABOUT_PARAGRAPH:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula metus quam, in laoreet ipsum sollicitudin id.",
+      "Nå som jeg har startet på Kodehode har vi fått vårt første innblikk i koding og startet med Html, CSS og JavaScript. Det er et virkelig spennende fag og gleder meg til å lære mer!",
+    ABOUT_PARAGRAPH_FADE:
+      "Tidligere har jeg erfaring med kundeservice i IT, hvor kommunikasjon er veldig viktig.Dette har gitt meg kunnskaper innenfor problemløsning, som igjen har gitt meg en god dose tålmodighet. Når det kommer til gaming har jeg hovedsakelig spilt MMO som Wow og Elder Scrolls Online. Det har gjort meg godt vandt til å jobbe i grupper og  kommunisere med folk fra hele verden. Mods og addons er også en naturlig del av MMO så har vært mye borti det.",
   },
   INTERESSE_TITLE: "Interesser",
   INTERESSE_BUTTONS: {
-    HIKING:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, animi similique? Sunt vero neque iure dolore",
-    GAMING:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quae fuga ut, et ea delectus non eaque. Expedita quo, quidem maxime l",
-    FORMULA_1:
-      "lorLorem ipsum dolor sit amet consectetur adipisicing elit. Labor",
-    DOGS: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quae fuga ut, et e",
+    HIKING: "Glad i å gå tur!",
+    GAMING: "Gamer hovedsaklig MMOs som wow, eso og ff14",
+    FORMULA_1: "Fulgt med på Formel 1 så lenge jeg kan huske!",
+    DOGS: "Vokst opp med hund, målet er å få min egen når tiden er riktig!",
     SPACE:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quae fuga ut, et ea delectus non eaque. Expedita quo, qui",
+      "Alltid hatt en stor interesse for romfart. Følger mye med på rakettoppskytninger fra SpaceX/Nasa o.l",
   },
   FOOTER_SECTION: {
     FOOTER_TITLE: "Kontaktinfo",

@@ -40,19 +40,24 @@ export default function Carousel() {
           <label className="card" for="item-1" id="card-1">
             <div className="card-img">
               <img
-                src={require("../images/placeholder-1.png")}
+                src={require("../images/Travelpage.png")}
                 className="project-img"
                 alt=""
               />
               <div className="project-textarea">
                 <h3 className="project-title">
-                  {TEXT.PROJECTS_SECTION.PROJECT_HEADLINE}
+                  {TEXT.PROJECTS_SECTION.TRAVELPAGE.PROJECT_HEADLINE}
                 </h3>
                 <p className="project-text">
-                  {TEXT.PROJECTS_SECTION.PROJECT_TEXT}
+                  {TEXT.PROJECTS_SECTION.TRAVELPAGE.PROJECT_TEXT}
                 </p>
                 <StyledProjectCardButton>
-                  {TEXT.BUTTON_TEXT.SE_PROSJEKT}
+                  <a
+                    href="https://sondre94.github.io/Travel-Page/"
+                    target="_blank"
+                  >
+                    {TEXT.BUTTON_TEXT.SE_PROSJEKT}
+                  </a>
                 </StyledProjectCardButton>
               </div>
             </div>
@@ -60,19 +65,24 @@ export default function Carousel() {
           <label className="card" for="item-2" id="card-2">
             <div className="card-img">
               <img
-                src={require("../images/placeholder-2.png")}
+                src={require("../images/todolist.png")}
                 className="project-img"
                 alt=""
               />
               <div className="project-textarea">
                 <h3 className="project-title">
-                  {TEXT.PROJECTS_SECTION.PROJECT_HEADLINE}
+                  {TEXT.PROJECTS_SECTION.TODO_LIST.PROJECT_HEADLINE}
                 </h3>
                 <p className="project-text">
-                  {TEXT.PROJECTS_SECTION.PROJECT_TEXT}
+                  {TEXT.PROJECTS_SECTION.TODO_LIST.PROJECT_TEXT}
                 </p>
                 <StyledProjectCardButton>
-                  {TEXT.BUTTON_TEXT.SE_PROSJEKT}
+                  <a
+                    href="https://sondre94.github.io/To-Do-list/"
+                    target="_blank"
+                  >
+                    {TEXT.BUTTON_TEXT.SE_PROSJEKT}
+                  </a>
                 </StyledProjectCardButton>
               </div>
             </div>
@@ -80,19 +90,24 @@ export default function Carousel() {
           <label className="card" for="item-3" id="card-3">
             <div className="card-img">
               <img
-                src={require("../images/placeholder-3.png")}
+                src={require("../images/catfacts.png")}
                 className="project-img"
                 alt=""
               />
               <div className="project-textarea">
                 <h3 className="project-title">
-                  {TEXT.PROJECTS_SECTION.PROJECT_HEADLINE}
+                  {TEXT.PROJECTS_SECTION.CATFACTS.PROJECT_HEADLINE}
                 </h3>
                 <p className="project-text">
-                  {TEXT.PROJECTS_SECTION.PROJECT_TEXT}
+                  {TEXT.PROJECTS_SECTION.CATFACTS.PROJECT_TEXT}
                 </p>
                 <StyledProjectCardButton>
-                  {TEXT.BUTTON_TEXT.SE_PROSJEKT}
+                  <a
+                    href="https://sondre94.github.io/API-call-innlevering/"
+                    target="_blank"
+                  >
+                    {TEXT.BUTTON_TEXT.SE_PROSJEKT}
+                  </a>
                 </StyledProjectCardButton>
               </div>
             </div>

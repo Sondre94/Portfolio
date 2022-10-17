@@ -343,6 +343,7 @@ const FooterTitle = styled.h3`
 
 const UnderText = styled.p`
   color: grey;
+  line-height: 130%;
 
   @media (max-width: 800px) {
     font-size: 12px;
